@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog logicalFilePath="changeLog.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="1" author="Alexey Karazhakov">
+        <tagDatabase tag="INITIAL"/>
+    </changeSet>
+
+    <include file="1.0/20211206_init_db.sql" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>
